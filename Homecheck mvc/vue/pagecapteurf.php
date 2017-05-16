@@ -7,6 +7,9 @@ require "commun.php";
 
     ob_start();
     ?>
+  
+    
+  
   <div id="carre"> 
        
   <h2> Capteur Fenêtre :</h2>
@@ -42,7 +45,7 @@ require "commun.php";
 
          </div>
      
-        
+     
     <?php
     $contenu = ob_get_clean();
 

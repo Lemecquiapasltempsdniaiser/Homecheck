@@ -15,7 +15,7 @@ require "commun.php";
 
         <div class="logement">
 
-            <a href="logementChoisi.php"> 
+            <a href="index.php?cible=logementchoisi"> 
         <div class=" image_maison"> 
          
                 <img src="image/image_maison.jpg" alt="maison" title="Accès à votre maison"> 
@@ -33,7 +33,7 @@ require "commun.php";
        
         <div class="logement">
 
-            <a href="logementChoisi.php"> 
+            <a href="index.php?cible=logementchoisi"> 
             <div class=" image_appartement"> 
                 <img src="image/image_appartement.jpg" alt="maison" title="Accès à votre appartement"> 
             </div> 

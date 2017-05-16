@@ -13,7 +13,7 @@ require "commun.php";
 
          <div class="carre" >
             
-               <a href="capteursParPiece.php" > <img class=" plan" src="image/plan maison.jpg" alt="Plan de la maison" /></a>
+               <a href="index.php?cible=capteursparpiece" > <img class=" plan" src="image/plan maison.jpg" alt="Plan de la maison" /></a>
           
               <ul class="liste"> 
                   <p> Adresses </p>

@@ -16,7 +16,7 @@ require "commun.php";
                 </p>
 
             </div>
-            <form method="post" action="MonProfil.php">
+            <form method="post" action="index.php?cible=monprofil">
                 <p class="modif">
                 <table class="modifier">
                     <tr>

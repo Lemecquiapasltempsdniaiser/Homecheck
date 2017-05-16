@@ -84,7 +84,7 @@ require "commun.php";
     
     
 
-    include 'gabarit.php';
+    include 'vue/gabarit.php';
 ?>
 
 

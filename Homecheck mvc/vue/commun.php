@@ -13,7 +13,7 @@ function entete( $page ){
         <div class="rectangle1">
                 <div class="rectangle2">
 
-                    <a href="connexion.php" ><img class="logo" src="image/logo.png" alt="logo" /></a>
+                    <a href="index.php?cible=pagedacceuil "><img class="logo" src="image/logo.png" alt="logo" /></a>
                     <div class="texte1">
                         <ul>
                             <p class="Homecheck" > HomeCheck </p>
@@ -22,7 +22,7 @@ function entete( $page ){
                     </div>
                 
                     <div id="inscription">
-                        <form class="inscription" method="post" action="AProposDeHomecheck.php" >
+                        <form class="inscription" method="post" action="index.php?cible=accueilco" >
                             <label for=" pseudo" > Votre pseudo : </label> 
                             
                             <input type="text" name="Pseudo" id="Pseudo" placeholder="Pseudo ou mail..."  />
@@ -54,7 +54,7 @@ function entete( $page ){
        <div class="rectangle1">
                 <div class="rectangle2">
 
-                    <a href="AProposDeHomeCheck.php" ><img class="logo" src="image/logo.png" alt="logo" /></a>
+                    <a href="index.php?cible=pagedacceuil " ><img class="logo" src="image/logo.png" alt="logo" /></a>
                     <div class="texte1">
                         <ul>
                             <p class="Homecheck" > HomeCheck </p>
@@ -64,7 +64,7 @@ function entete( $page ){
                     <div id="Admin">
                         <div><img class="PhotoAdmin" src="image/Msublime.jpg" alt="PhotoAdmin" /></div>
                         <div class="barre" >  Jérémie <span class="nom"> SUBLIME </span></div>
-                        <a href="pageDaccueil.php" ><img class="deco" src="image/deconnexion.png" type="Déconnexion" alt="Deconnexion"></a>
+                        <a href="index.php?cible=deco" ><img class="deco" src="image/deconnexion.png" type="Déconnexion" alt="Deconnexion"></a>
                     </div>
                     <div class="langues">
                     <a href="?" > <img class="francais" src="image/francais.gif" type="Français" alt="Français" /></a>
@@ -75,10 +75,10 @@ function entete( $page ){
                 <div class=" rectangle3">
                     <table class="menu"> 
                         <tr class="tr2">
-                            <td class="td2" onclick="location='AProposDeHomeCheck.php'" style="cursor:pointer" > A propos de HomeCheck </td>
-                            <td class="td2" onclick="location= 'MesLogements.php'" style="cursor:pointer" > Mes logements </td>
-                            <td class="td2" onclick="location='MonProfil.php'" style="cursor:pointer">  Mon profil </td>
-                            <td class="td2" onclick="location='Contactez_nous.php'" style="cursor:pointer"> Contactez-nous </td>
+                            <td class="td2" onclick="location='index.php?cible=accueilco'" style="cursor:pointer" > A propos de HomeCheck </td>
+                            <td class="td2" onclick="location= 'index.php?cible=meslogements'" style="cursor:pointer" > Mes logements </td>
+                            <td class="td2" onclick="location='index.php?cible=monprofil'" style="cursor:pointer">  Mon profil </td>
+                            <td class="td2" onclick="location='index.php?cible=contactez'" style="cursor:pointer"> Contactez-nous </td>
                         </tr>
                     </table>
                         <form class="recherche" method="post" action="retour.php" >

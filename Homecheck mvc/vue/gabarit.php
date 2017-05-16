@@ -19,7 +19,6 @@
 </hr>
  <?php echo($contenu); ?>   
 </hr>
-</body>
       <footer>
           
          Tout droits réservés@ 

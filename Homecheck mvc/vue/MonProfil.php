@@ -13,7 +13,7 @@ require "commun.php";
                 <div class="boxphoto">
                      <img class="photoProfil" src="image/Msublime.jpg" alt="Utilisateur"/> <br/>
 
-                     <a class="centrer" href="modifierMonProfil.php"><div class="modifierProfil"> Modifier mon profil </div></a>
+                     <a class="centrer" href="index.php?cible=editprofil"><div class="modifierProfil"> Modifier mon profil </div></a>
                 </div>
                 
                 <?php 

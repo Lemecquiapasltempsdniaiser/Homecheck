@@ -11,7 +11,7 @@ require "commun.php";
 
            
         <div class="formulaire">
- <a href="capteursParPiece.php"> <img class="croix2" src="image/croix2.png" alt="fermeture" /> </a>
+ <a href="index.php?cible=capteursparpiece"> <img class="croix2" src="image/croix2.png" alt="fermeture" /> </a>
             
             <span class=ajouttitre> Ajouter un capteur </span>
                 <br/><br/><br/>
@@ -35,7 +35,7 @@ require "commun.php";
                 </div> <br/>
 
                 <div class="reference">
-                        <form method="post" action="traitement.php">
+                        <form method="post" action="index.php?cible=capteursparpiece">
                              <p>
                          <label>Référence du capteur <br/> </label>  <br/> <input type="text" name="pseudo" placeholder="Numéro de série..."/><br/><br/><br/><br/>
                             </p>
@@ -47,7 +47,7 @@ require "commun.php";
         <div class="confirmation"><h3> Vous recevrez un mail de validation confirmant l'ajout demandé. <br/> Merci de votre confiance. </h3> 
         </div> <br/><br/>
 
-        <a href="#">
+        <a href="index.php?cible=capteursparpiece">
         <div class="valider"> Valider 
         </div> </a> <br/> <br/> <br/>
 

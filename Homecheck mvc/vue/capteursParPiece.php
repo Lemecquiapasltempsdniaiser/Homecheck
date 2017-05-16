@@ -16,7 +16,7 @@ require "commun.php";
                 </div> 
                     <br/>  
 
-                 <a href="automatisations.php"> 
+                 <a href="index.php?cible=automatisations"> 
                 <div class="automatisation"> Automatisation 
                </div> </a>
                
@@ -50,7 +50,7 @@ require "commun.php";
 
                     </div>
 
-                    <a href="pagecapteurt.php">
+                    <a href="index.php?cible=capteurt">
                     <div class="capteur">
                                 <div class="capteur_img"> 
 
@@ -66,7 +66,7 @@ require "commun.php";
 
                     <div class="bouton2">
 
-                            <a href="ajouterCapteur.php" >  
+                            <a href="index.php?cible=ajoutcapteur" >  
                             <div class="ajouter">
                                  <img src="image/ajouter.jpg" alt="ajouter" title="Ajouter un capteur ou un actionneur"/>
                            </div> 

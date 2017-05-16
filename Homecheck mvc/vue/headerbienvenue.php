@@ -13,8 +13,8 @@
 						</ul>
 					</div>
 				
-					<div id="inscription"> 
-						<form class="inscription" method="post" action="index.php?cible=verif" >
+					<div id="inscription">
+						<form class="inscription" method="post" action="AProposDeHomecheck.php" >
 							<label for=" pseudo" > Votre pseudo : </label> 
 							
 							<input type="text" name="Pseudo" id="Pseudo" placeholder="Pseudo ou mail..."  />
