@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="SITE2.css" />
-        <title>HomeCheck</title>
-    </head>
 
-    <body class="acceuil">
-
-       <?php include'headerbienvenue.php'; ?>
 
        <?php
-    $entete = entete("Mon site / Accueil non connecté");
+require "commun.php"
+    $entete = entete(1);
     ob_start();
     ?>
         <fieldset>
@@ -35,5 +26,4 @@
     include 'gabarit.php';
 ?>
 
-    </body>
-</html>
+  

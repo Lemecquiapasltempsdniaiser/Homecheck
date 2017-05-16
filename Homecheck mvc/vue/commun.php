@@ -22,7 +22,7 @@ function entete( $page ){
                     </div>
                 
                     <div id="inscription">
-                        <form class="inscription" method="post" action="index.php?cible=accueilco" >
+                        <form class="inscription" method="post" action="index.php?cible=verif" >
                             <label for=" pseudo" > Votre pseudo : </label> 
                             
                             <input type="text" name="Pseudo" id="Pseudo" placeholder="Pseudo ou mail..."  />
