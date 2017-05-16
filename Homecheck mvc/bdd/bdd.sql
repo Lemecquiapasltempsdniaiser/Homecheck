@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 11 Mai 2017 à 11:25
+-- Généré le :  Dim 14 Mai 2017 à 19:42
 -- Version du serveur :  10.1.21-MariaDB
 -- Version de PHP :  5.6.30
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `bdd`
+-- Base de données :  `homecheck`
 --
 
 -- --------------------------------------------------------
@@ -105,7 +105,7 @@ CREATE TABLE `utilisateur` (
   `nom` varchar(100) NOT NULL,
   `prenom` varchar(100) NOT NULL,
   `identifiant` varchar(100) NOT NULL,
-  `mot de passe` varchar(50) NOT NULL,
+  `mdp` varchar(50) NOT NULL,
   `date de naissance` date NOT NULL,
   `telephone` varchar(255) NOT NULL,
   `mail` varchar(255) NOT NULL,
@@ -119,7 +119,7 @@ CREATE TABLE `utilisateur` (
 -- Contenu de la table `utilisateur`
 --
 
-INSERT INTO `utilisateur` (`id`, `nom`, `prenom`, `identifiant`, `mot de passe`, `date de naissance`, `telephone`, `mail`, `adresse`, `code postal`, `ville`, `type`) VALUES
+INSERT INTO `utilisateur` (`id`, `nom`, `prenom`, `identifiant`, `mdp`, `date de naissance`, `telephone`, `mail`, `adresse`, `code postal`, `ville`, `type`) VALUES
 (1, 'SUBLIME', 'Jeremie', 'jeremie.sublime@isep.fr', 'Motdepasse', '2017-05-11', '0000000000', 'jeremie.sublime@isep.fr', '10 rue de Vanves', 75011, 'PARIS', 1);
 
 -- --------------------------------------------------------
