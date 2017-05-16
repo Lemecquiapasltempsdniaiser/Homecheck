@@ -25,6 +25,12 @@ require "commun.php";
         <div class="info8">
 
             <div class="text8">
+            <?php
+
+  $reponse = $bdd->query('SELECT * FROM logement WHERE id=1');
+$donnees = $reponse->fetch();
+?>
+    
                      <p> Nombre de capteurs (informations dans la base de donnée) <br/>
                         Consommation générale de la maison <br/>
                     </p>

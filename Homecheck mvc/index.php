@@ -3,7 +3,7 @@
    /* require("modele/inscription.php");*/
     
    
-    if(isset($_SESSION["userID"])){ // L'utilisateur n'est pas connectÃ©
+    if(!isset($_SESSION["userID"])){ // L'utilisateur n'est pas connectÃ©
      /* include  ("controleur/inscription.php");*/}/// On utilise un controleur secondaire pour eviter d'avoir un fichier index.php trop gros
      else { // L'utilisateur est connectÃ©
         if(isset($_GET['cible'])) { // on regarde la page on le veut aller 

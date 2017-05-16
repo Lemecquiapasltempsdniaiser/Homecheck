@@ -1,7 +1,7 @@
 <?php
 
 
-
+include $_SERVER['DOCUMENT_ROOT']."/Homecheckmvc/modele/connexion_bdd.php";
 
 
 

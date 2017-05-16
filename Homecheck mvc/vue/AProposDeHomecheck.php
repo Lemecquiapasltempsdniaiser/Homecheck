@@ -15,7 +15,7 @@ require "commun.php";
         </div>
         
         <br/>
-        <div class="contact"><a href="index.php?cible=contactez">Contactez-nous</a></div>
+        <div class="contact1"><a href="index.php?cible=contactez">Contactez-nous</a></div>
         <br/>
       </section>
          

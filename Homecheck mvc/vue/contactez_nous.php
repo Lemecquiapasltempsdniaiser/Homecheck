@@ -11,10 +11,11 @@ require "commun.php";
             <p class="title"> Contactez-nous : </p>
         <div class="box10">
             <form method="post" action="traitement.php" class="contact">   
-                <label for="Nom">Nom :</label>
+                <label for="Nom"><h10>Nom</h10> :</label>
                 <input type="text" name="nom" id="nom" placeholder="Ex : Jérémie" required />
                                             <br/>
-                                             <br/>
+                                            <br/>
+                                             
                  <label for="Email">Email :</label>
                  <input type="email" name="email" id="email" required/>
                                              <br/>
@@ -24,12 +25,15 @@ require "commun.php";
                 <input type="tel" name="tel" id="tel" required/>
                                             <br/>
                                             <br/>
+                                            
                 <label for="Message">Message :</label>
                 <br/>
                 <br/>
+                
                 <textarea name="message" id="message" rows="10" cols="50" required></textarea> 
                 <br/>
                 <br/>
+                
                 <input class="envoyerb" type="submit" value="Envoyer" />
                 <br/>
 

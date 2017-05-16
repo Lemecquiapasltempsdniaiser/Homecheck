@@ -16,9 +16,9 @@ require "commun.php";
   <a href="#" class="On">On</a>
   <a href="#" class="Off">Off</a>
   <img class="capteurf" src="image/fenetre.jpg" alt="Capteur de fenetre" />
-  <a href="capteursParPiece.php"> <img class="croixf" src="image/croix2.png" alt="fermeture" /> </a>
-  <a href="pagecapteurt.php"> <img class="flechedf" src="image/fleched.png" alt="fermeture" /> </a>
-  <a href="pagecapteurh.php"> <img class="flechegf" src="image/flecheg.png" alt="fermeture" /> </a> 
+  <a href="index.php?cible=capteursparpiece"> <img class="croixf" src="image/croix2.png" alt="fermeture" /> </a>
+  <a href="index.php?cible=capteurt"> <img class="flechedf" src="image/fleched.png" alt="fermeture" /> </a>
+  <a href="index.php?cible=capteurh"> <img class="flechegf" src="image/flecheg.png" alt="fermeture" /> </a> 
   <img class="graphef" src="image/graphehumi.png" alt="Graphique de temperature" />  
    <ul id="menuf">
 
